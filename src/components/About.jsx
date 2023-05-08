@@ -52,6 +52,8 @@ function About() {
             <Card.Text >As a recent graduate with a strong background in both front-end and back-end development, I am passionate about creating web applications that are both user-friendly and scalable. While I have experience in both areas, my true passion lies in designing and implementing secure and efficient backend systems.
 
             </Card.Text>
+            <br>
+            </br>
             <Card.Text>During my studies, I excelled in building custom RESTful APIs, integrating third-party services, optimizing database performance, and setting up cloud-based server infrastructure. With a keen understanding of data structures and algorithms, I am confident in my ability to create performant and reliable systems that can handle heavy traffic and high loads.
 
             </Card.Text>

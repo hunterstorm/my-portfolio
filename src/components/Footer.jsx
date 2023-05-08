@@ -12,9 +12,10 @@ function Footer() {
         </div>
         <br>
         </br>
-        <div style={{display:'flex',flexDirection:'column',fontSize:'105%'}}>
+        <div style={{ color:'#999999',display:'flex',flexDirection:'column',fontSize:'105%'}}>
           <p>Hunter Storm Reese</p>
           <p>huntersreese@gmail.com</p>
+          <p>Denver, CO</p>
         </div>
   </div>
 
