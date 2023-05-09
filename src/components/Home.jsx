@@ -19,11 +19,11 @@ function Home() {
             </div>
             <div className= "greeting">
               <Greeting/>
-              <p className='short-bio'>My name is Hunter Reese and I am a full-stack developer.
+              <p className='short-bio'>My name is Hunter! I am a backend-focused full-stack developer.
                 <br>
                 </br>
                 <br>
-                </br>I build tangible, scaleable and cohesive digital experiences. </p>
+                </br>I love to build tangible, scaleable and cohesive digital experiences. </p>
             </div>
 
     </div>

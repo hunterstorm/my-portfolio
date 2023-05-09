@@ -34,19 +34,19 @@ const boldStyle = { fontWeight: 'bold' }
                       borderWidth:3,
                       borderColor:'#999999',
                       backgroundColor:'black', 
-                      fontSize:'2.0vw',
+                      fontSize:'115%',
                       display:'flex', 
                       textAlign:'center', 
                       justifyContent:'center' }}>
             <Card.Body>
                 <Card.Title>
-                    <h1>
+                    <h2>
                         Synopsis
-                    </h1>
+                    </h2>
                 </Card.Title>
                 <Card.Text>
                 
-                        Trader Recipes was my Capstone project.
+                        Trader Recipes was my Capstone project for my Software Development Certification.
                         <br></br>
                         <br></br>
                          At a high-level collaborative effort, the goal was to create a complete application framework that enables & sustains user-driven content. 
@@ -56,12 +56,11 @@ const boldStyle = { fontWeight: 'bold' }
                 </Card.Text>
 
                 <div style={{display:'flex',
-                           
-                         
                             borderRadius:10,
                             margin:'5%',
                             flexDirection:'row', 
-                            justifyContent:'center'
+                            justifyContent:'center',
+                            columnGap:'5vw'
                        }}>
                     <div>
                         <a target="_blank" 
@@ -93,69 +92,69 @@ const boldStyle = { fontWeight: 'bold' }
             
         </Card>
         <Card style={{margin:30, display:'flex', textAlign:'center',justifyContent:'center',alignContent:'center'}}>
-            <Card.Title style={{padding:15}}><h1>
+            <Card.Title style={{padding:15}}><h2>
             Features
-                </h1></Card.Title>
+                </h2></Card.Title>
             <Card.Body >
                 <Carousel className="project-carousel" style={{ color:'rgb(0, 191, 255)',  paddingBottom: 55}}
                             activeIndex={imageIndex}
                             onSelect={handleImgChange}
                 >
                     <Carousel.Item  key={0}>
-                        <h2>
+                        <h3>
                             Featured Recipes Home Page
-                        </h2>
+                        </h3>
                         <img style={{
                                     height:'500px',
                                     width:'100%',
                                     objectFit:'scale-down'}}src={TraderHome}></img>
                     </Carousel.Item>
                     <Carousel.Item key={1}>
-                    <h2>
+                    <h3>
                             Dynamic Search Form: Recipe
-                        </h2>
+                        </h3>
                         <img style={{width:'100%',
                                     height:'500px',
                                     objectFit:'scale-down'}} src ={TraderSearchRecipe}></img>
                     </Carousel.Item>
                     <Carousel.Item key={2}>
-                    <h2>
+                    <h3>
                             Dynamic Search Form: Ingredient
-                        </h2>
+                        </h3>
                         <img style={{width:'100%',
                                     height:'500px',
                                     objectFit:'scale-down'}} src ={TraderSearchIngredient}></img>
                     </Carousel.Item>
                     <Carousel.Item key={3}>
-                    <h2>
+                    <h3>
                             User Sign-Up
-                        </h2>
+                        </h3>
                         <img style={{width:'100%',
                                     height:'500px',
                                     objectFit:'scale-down'}} src ={TraderSignInModal}></img>
                     </Carousel.Item>
                     <Carousel.Item key={4}>
-                    <h2>
+                    <h3>
                             User Log-In
-                        </h2>
+                        </h3>
                         <img style={{width:'100%',
                                     height:'500px',
                                     objectFit:'scale-down'}} src ={TraderLoginModal}></img>
                     </Carousel.Item>
 
                     <Carousel.Item key={5}>
-                    <h2>
+                    <h3>
                             Post Recipe
-                        </h2>
+                        </h3>
                         <img style={{width:'100%',
                                     height:'500px',
                                     objectFit:'scale-down'}} src ={TraderPostRecipe}></img>
                     </Carousel.Item>
 
                     <Carousel.Item key={6}>
-                    <h2>
+                    <h3>
                             User Dashboard
-                        </h2>
+                        </h3>
                         <img style={{width:'100%',
                                     height:'500px',
                                     objectFit:'scale-down'}} src ={TraderUpdated}></img>

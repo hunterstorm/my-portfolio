@@ -34,15 +34,15 @@ const boldStyle = { fontWeight: 'bold' }
                       borderWidth:3,
                       borderColor:'#999999',
                       backgroundColor:'black', 
-                      fontSize:'2.0vw',
+                      fontSize:'115%',
                       display:'flex', 
                       textAlign:'center', 
                       justifyContent:'center' }}>
             <Card.Body>
                 <Card.Title>
-                    <h1>
+                    <h2>
                         Synopsis
-                    </h1>
+                    </h2>
                 </Card.Title>
                 <Card.Text>
                 
@@ -81,27 +81,28 @@ const boldStyle = { fontWeight: 'bold' }
             </Card.Body>
         </Card>
         <Card style={{width:'85%', display:'flex', textAlign:'center',justifyContent:'center',alignContent:'center'}}>
-            <Card.Title style={{padding:15}}><h1>
+            <Card.Title style={{padding:15}}>
+                <h2>
             Features
-                </h1></Card.Title>
+                </h2></Card.Title>
             <Card.Body >
                 <Carousel className="project-carousel" style={{ color:'rgb(0, 191, 255)', paddingBottom: 55}}
                             activeIndex={imageIndex}
                             onSelect={handleImgChange}
                 >
                     <Carousel.Item key={0}>
-                        <h2>
+                        <h3>
                             Github Username Search Form
-                        </h2>
+                        </h3>
                         <img style={{
                                     height:'500px',
                                     width:'100%',
                                     objectFit:'scale-down'}}src={RepoForm}></img>
                     </Carousel.Item>
                     <Carousel.Item key={1}>
-                    <h2>
+                    <h3>
                             Form Response: All User Repositories
-                        </h2>
+                        </h3>
                         <img style={{width:'100%',
                                     borderRadius:'15px',
                                     height:'500px',
